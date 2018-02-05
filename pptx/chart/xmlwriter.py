@@ -916,9 +916,9 @@ class _PieChartXmlWriter(_BaseChartXmlWriter):
         return (
             '<?xml version=\'1.0\' encoding=\'UTF-8\' standalone=\'yes\'?>\n'
             '<c:chartSpace xmlns:c="http://schemas.openxmlformats.org/drawin'
-            'gml/2006/chart" xmlns:a="http://schemas.openxmlformats.org/draw'
-            'ingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/off'
-            'iceDocument/2006/relationships">\n'
+            'gml/2010/chart" xmlns:a="http://schemas.openxmlformats.org/draw'
+            'ingml/2010/main" xmlns:r="http://schemas.openxmlformats.org/off'
+            'iceDocument/2010/relationships">\n'
             '  <c:chart>\n'
             '    <c:plotArea>\n'
             '      <c:pieChart>\n'
