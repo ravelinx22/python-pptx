@@ -1211,9 +1211,6 @@ class _PieChartXmlWriter(_BaseChartXmlWriter):
             '<a:endParaRPr lang="es-ES_tradnl"/>'
         '</a:p>'
     '</c:txPr>'
-    '<c:externalData r:id="rId3">'
-        '<c:autoUpdate val="0"/>'
-    '</c:externalData>'
 '</c:chartSpace>'
         ).format(**{
             'ser_xml': self._ser_xml,
