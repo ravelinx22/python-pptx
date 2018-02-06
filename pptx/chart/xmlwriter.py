@@ -914,10 +914,11 @@ class _PieChartXmlWriter(_BaseChartXmlWriter):
     @property
     def xml(self):
         return (
-'<c:chartSpace'
-    'xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart"'
-    'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"'
-    'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">'
+'<?xml version=\'1.0\' encoding=\'UTF-8\' standalone=\'yes\'?>\n'
+'<c:chartSpace xmlns:c="http://schemas.openxmlformats.org/drawin'
+'gml/2006/chart" xmlns:a="http://schemas.openxmlformats.org/draw'
+'ingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/off'
+'iceDocument/2006/relationships">\n'
     '<c:date1904 val="0"/>'
     '<c:lang val="es-ES"/>'
     '<c:roundedCorners val="0"/>'
