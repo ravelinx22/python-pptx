@@ -1011,7 +1011,7 @@ class _PieChartXmlWriter(_BaseChartXmlWriter):
                             '<a:effectLst/>'
                         '</c:spPr>'
                         '<c:txPr>'
-                            <a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" lIns="38100" tIns="19050" rIns="38100" bIns="19050" 'anchor="ctr" anchorCtr="1">'
+                            '<a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" lIns="38100" tIns="19050" rIns="38100" bIns="19050" anchor="ctr" anchorCtr="1">'
                                 '<a:spAutoFit/>'
                             '</a:bodyPr>'
                             '<a:lstStyle/>'
