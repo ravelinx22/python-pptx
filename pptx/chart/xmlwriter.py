@@ -964,7 +964,6 @@ class _PieChartXmlWriter(_BaseChartXmlWriter):
       '<c:pieChart>'
         '<c:varyColors val="1" />'
         '{ser_xml}'
-        '</c:ser>'
         '<c:dLbls>'
           '<c:showLegendKey val="0" />'
           '<c:showVal val="0" />'
